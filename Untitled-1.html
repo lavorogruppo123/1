@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elettro - Negozio di Elettrodomestici</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('https://www.ansa.it/webimages/news_base/2021/11/9/b971661c81200e5f3159beeda2f37d92.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+</head>
+<body>
+    <header>
+        <h1>Elettro</h1>
+        <nav>
+            <ul>
+                <li><a href="#forni">Forni</a></li>
+                <li><a href="#ventilatori">Ventilatori</a></li>
+                <li><a href="#frigoriferi">Frigoriferi</a></li>
+                <li><a href="#microonde">Microonde</a></li>
+                <li><a href="#caffettiere">Caffettiere</a></li>
+                <li><a href="#lavatrici">Lavatrici</a></li>
+                <li><a href="#carrello">Carrello</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+   
+    <main>
+        <section id="forni">
+            <h2>Forni</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.girmi.it/data/upload/hd/fe58-dsc0910.jpg" alt="Forno Elettrico">
+                    <h3>Forno Elettrico</h3>
+                    <p>Prezzo: €300</p>
+                    <button onclick="addToCart('Forno Elettrico ABC', 300)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.prezzoforte.it/images/webp/Zephir_ZHC25M_280681_0.webp" alt="Forno a Microonde">
+                    <h3>Forno a Microonde</h3>
+                    <p>Prezzo: €150</p>
+                    <button onclick="addToCart('Forno a Microonde', 150)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://experience-fresh.panasonic.eu/wp-content/uploads/2020/08/How-to-Convection-Cooking-Everything-You-Need-to-Know_02.jpg" alt="Forno a Convezione">
+                    <h3>Forno a Convezione</h3>
+                    <p>Prezzo: €350</p>
+                    <button onclick="addToCart('Forno a Convezione', 350)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://images.dimostore.it/1500/forno-da-incasso-electrolux-eoc-3s402-x-elettrico-inox-ifoeleeoc3s402x.jpg" alt="Forno da Incasso">
+                    <h3>Forno da Incasso</h3>
+                    <p>Prezzo: €400</p>
+                    <button onclick="addToCart('Forno da Incasso', 400)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+       
+        <section id="ventilatori">
+            <h2>Ventilatori</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://cdn11.bigcommerce.com/s-c16u297snr/images/stencil/1280x1280/products/4133/731609/4550512057949_09_1260__09216.1702396062.jpg?c=1" alt="Ventilatore Portatile 123">
+                    <h3>Ventilatore Portatile</h3>
+                    <p>Prezzo: €80</p>
+                    <button onclick="addToCart('Ventilatore Portatile', 80)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/51pEo6gV33L.jpg" alt="Ventilatore a Torre ABC">
+                    <h3>Ventilatore a Torre</h3>
+                    <p>Prezzo: €120</p>
+                    <button onclick="addToCart('Ventilatore a Torre', 120)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.brico-casa.it/sites/default/files/product_images/410333/Ventilatore_da_soffitto_con_telecomando_luce_70w_3velocita_bianco_140cm_Robson.jpg" alt="Ventilatore da Soffitto 789">
+                    <h3>Ventilatore da Soffitto</h3>
+                    <p>Prezzo: €150</p>
+                    <button onclick="addToCart('Ventilatore da Soffitto', 150)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://shop.bimaritaly.it/1596-medium_default/ventilatore-piantana-40cm-elettronico-con-telecomando-vp43t.jpg" alt="Ventilatore Industriale 456">
+                    <h3>Ventilatore a piantana</h3>
+                    <p>Prezzo: €50</p>
+                    <button onclick="addToCart('Ventilatore a piantana', 250)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="frigoriferi">
+            <h2>Frigoriferi</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.mondoaffariweb.it/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/0/8/08j6aonvfyubdnl-1954054_5.jpg" alt="Frigorifero XXL">
+                    <h3>Frigorifero XXL</h3>
+                    <p>Prezzo: €600</p>
+                    <button onclick="addToCart('Frigorifero XXL', 600)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.shopmancini.com/25222-superlarge_default/frigorifero-compatto-con-congelatore-65w-capacita-91-lt-tristar-kb-7391.jpg" alt="Frigorifero Compatto">
+                    <h3>Frigorifero Compatto</h3>
+                    <p>Prezzo: €400</p>
+                    <button onclick="addToCart('Frigorifero Compatto', 400)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.francoarredamenti.it/files/franco_arredamenti_2015_Files/Foto/48394.PNG" alt="Frigorifero Doppia Porta">
+                    <h3>Frigorifero Doppia Porta</h3>
+                    <p>Prezzo: €750</p>
+                    <button onclick="addToCart('Frigorifero Doppia Porta', 750)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://duegstore.com/26782-large_default/smeg-fq60xf-frigorifero-side-by-side-quattro-porte-92-cm.jpg" alt="Frigorifero Side by Side">
+                    <h3>Frigorifero Side by Side</h3>
+                    <p>Prezzo: €900</p>
+                    <button onclick="addToCart('Frigorifero Side by Side', 900)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="microonde">
+            <h2>Microonde</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.sencor.it/Sencor/media/content/products/64a5601f-b1bc-4871-b175-f01f375be647.jpg" alt="Microonde Veloce">
+                    <h3>Microonde Veloce</h3>
+                    <p>Prezzo: €100</p>
+                    <button onclick="addToCart('Microonde Veloce', 100)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.trovaincasso.it/media/catalog/product/cache/1/thumbnail/600x/9df78eab33525d08d6e5fb8d27136e95/5/5/559635-1.jpg" alt="Microonde da Incasso">
+                    <h3>Microonde da Incasso</h3>
+                    <p>Prezzo: €250</p>
+                    <button onclick="addToCart('Microonde da Incasso', 250)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.ariete.store/media/images/product/main/ariete-952-forno-a-microonde-combinato-con-grill-pizza-41b2691ce1b871357a0b350f4583f354.jpg" alt="Microonde Grill">
+                    <h3>Microonde Grill</h3>
+                    <p>Prezzo: €150</p>
+                    <button onclick="addToCart('Microonde Grill', 150)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/61dlDmo3JoL.jpg" alt="Microonde Multifunzionale">
+                    <h3>Microonde Multifunzionale</h3>
+                    <p>Prezzo: €200</p>
+                    <button onclick="addToCart('Microonde Multifunzionale', 200)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="caffettiere">
+            <h2>Caffettiere</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.kasanova.com/media/catalog/product/G/I/GIR000140NOC_307c6182-ea39-4e0c-bffd-8c495dcb3921.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=753&width=753&canvas=753:753" alt="Caffettiera Elettrica">
+                    <h3>Caffettiera Elettrica</h3>
+                    <p>Prezzo: €70</p>
+                    <button onclick="addToCart('Caffettiera Elettrica', 70)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/61+uUKYNeLL.jpg" alt="Caffettiera Italiana">
+                    <h3>Caffettiera Italiana</h3>
+                    <p>Prezzo: €30</p>
+                    <button onclick="addToCart('Caffettiera Italiana', 30)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/41pidwQLMFL._AC_UF1000,1000_QL80_.jpg" alt="Moka Tradizionale">
+                    <h3>affettiera automatica</h3>
+                    <p>Prezzo: €300</p>
+                    <button onclick="addToCart('Moka Tradizionale', 25)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/51ZEgm+3rNL._AC_UF894,1000_QL80_.jpg" alt="Caffettiera a Piston">
+                    <h3>Caffettiera automatica</h3>
+                    <p>Prezzo: €140</p>
+                    <button onclick="addToCart('Caffettiera a Piston', 40)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="lavatrici">
+            <h2>Lavatrici</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.savoiashop.com/public/prodotti/lavatrice-p0sp10ep.jpg" alt="Lavatrice Super">
+                    <h3>Lavatrice Super</h3>
+                    <p>Prezzo: €800</p>
+                    <button onclick="addToCart('Lavatrice Super', 800)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/5106qJm2DWL._AC_UF894,1000_QL80_.jpg" alt="Lavatrice Compatta">
+                    <h3>Lavatrice Compatta</h3>
+                    <p>Prezzo: €600</p>
+                    <button onclick="addToCart('Lavatrice Compatta', 600)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmThPcxRh0I-uFsM9wLSspZvoaZVQHxWKhDw&s" alt="Lavatrice a Carica Frontale">
+                    <h3>Lavatrice a Carica Frontale</h3>
+                    <p>Prezzo: €750</p>
+                    <button onclick="addToCart('Lavatrice a Carica Frontale', 750)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw36f4e373/hi-res/222007217_1.jpg?sw=1000&q=90&strip=false" alt="Lavatrice a Carica Dall'alto">
+                    <h3>Lavatrice a Carica Dall'alto</h3>
+                    <p>Prezzo: €700</p>
+                    <button onclick="addToCart('Lavatrice a Carica Dall\'alto', 700)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="carrello">
+            <h2>Carrello</h2>
+            <div id="cartItems"></div>
+            <p id="totalPrice">Prezzo Totale: €0</p>
+            <button onclick="checkout()">Procedi al Checkout</button>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Elettro. Tutti i diritti riservati.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elettro - Negozio di Elettrodomestici</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('https://www.ansa.it/webimages/news_base/2021/11/9/b971661c81200e5f3159beeda2f37d92.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+</head>
+<body>
+    <header>
+        <h1>Elettro</h1>
+        <nav>
+            <ul>
+                <li><a href="#forni">Forni</a></li>
+                <li><a href="#ventilatori">Ventilatori</a></li>
+                <li><a href="#frigoriferi">Frigoriferi</a></li>
+                <li><a href="#microonde">Microonde</a></li>
+                <li><a href="#caffettiere">Caffettiere</a></li>
+                <li><a href="#lavatrici">Lavatrici</a></li>
+                <li><a href="#carrello">Carrello</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+   
+    <main>
+        <section id="forni">
+            <h2>Forni</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.girmi.it/data/upload/hd/fe58-dsc0910.jpg" alt="Forno Elettrico">
+                    <h3>Forno Elettrico</h3>
+                    <p>Prezzo: €300</p>
+                    <button onclick="addToCart('Forno Elettrico ABC', 300)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.prezzoforte.it/images/webp/Zephir_ZHC25M_280681_0.webp" alt="Forno a Microonde">
+                    <h3>Forno a Microonde</h3>
+                    <p>Prezzo: €150</p>
+                    <button onclick="addToCart('Forno a Microonde', 150)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://experience-fresh.panasonic.eu/wp-content/uploads/2020/08/How-to-Convection-Cooking-Everything-You-Need-to-Know_02.jpg" alt="Forno a Convezione">
+                    <h3>Forno a Convezione</h3>
+                    <p>Prezzo: €350</p>
+                    <button onclick="addToCart('Forno a Convezione', 350)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://images.dimostore.it/1500/forno-da-incasso-electrolux-eoc-3s402-x-elettrico-inox-ifoeleeoc3s402x.jpg" alt="Forno da Incasso">
+                    <h3>Forno da Incasso</h3>
+                    <p>Prezzo: €400</p>
+                    <button onclick="addToCart('Forno da Incasso', 400)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+       
+        <section id="ventilatori">
+            <h2>Ventilatori</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://cdn11.bigcommerce.com/s-c16u297snr/images/stencil/1280x1280/products/4133/731609/4550512057949_09_1260__09216.1702396062.jpg?c=1" alt="Ventilatore Portatile 123">
+                    <h3>Ventilatore Portatile</h3>
+                    <p>Prezzo: €80</p>
+                    <button onclick="addToCart('Ventilatore Portatile', 80)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/51pEo6gV33L.jpg" alt="Ventilatore a Torre ABC">
+                    <h3>Ventilatore a Torre</h3>
+                    <p>Prezzo: €120</p>
+                    <button onclick="addToCart('Ventilatore a Torre', 120)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.brico-casa.it/sites/default/files/product_images/410333/Ventilatore_da_soffitto_con_telecomando_luce_70w_3velocita_bianco_140cm_Robson.jpg" alt="Ventilatore da Soffitto 789">
+                    <h3>Ventilatore da Soffitto</h3>
+                    <p>Prezzo: €150</p>
+                    <button onclick="addToCart('Ventilatore da Soffitto', 150)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://shop.bimaritaly.it/1596-medium_default/ventilatore-piantana-40cm-elettronico-con-telecomando-vp43t.jpg" alt="Ventilatore Industriale 456">
+                    <h3>Ventilatore a piantana</h3>
+                    <p>Prezzo: €50</p>
+                    <button onclick="addToCart('Ventilatore a piantana', 250)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="frigoriferi">
+            <h2>Frigoriferi</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.mondoaffariweb.it/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/0/8/08j6aonvfyubdnl-1954054_5.jpg" alt="Frigorifero XXL">
+                    <h3>Frigorifero XXL</h3>
+                    <p>Prezzo: €600</p>
+                    <button onclick="addToCart('Frigorifero XXL', 600)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.shopmancini.com/25222-superlarge_default/frigorifero-compatto-con-congelatore-65w-capacita-91-lt-tristar-kb-7391.jpg" alt="Frigorifero Compatto">
+                    <h3>Frigorifero Compatto</h3>
+                    <p>Prezzo: €400</p>
+                    <button onclick="addToCart('Frigorifero Compatto', 400)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.francoarredamenti.it/files/franco_arredamenti_2015_Files/Foto/48394.PNG" alt="Frigorifero Doppia Porta">
+                    <h3>Frigorifero Doppia Porta</h3>
+                    <p>Prezzo: €750</p>
+                    <button onclick="addToCart('Frigorifero Doppia Porta', 750)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://duegstore.com/26782-large_default/smeg-fq60xf-frigorifero-side-by-side-quattro-porte-92-cm.jpg" alt="Frigorifero Side by Side">
+                    <h3>Frigorifero Side by Side</h3>
+                    <p>Prezzo: €900</p>
+                    <button onclick="addToCart('Frigorifero Side by Side', 900)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="microonde">
+            <h2>Microonde</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.sencor.it/Sencor/media/content/products/64a5601f-b1bc-4871-b175-f01f375be647.jpg" alt="Microonde Veloce">
+                    <h3>Microonde Veloce</h3>
+                    <p>Prezzo: €100</p>
+                    <button onclick="addToCart('Microonde Veloce', 100)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.trovaincasso.it/media/catalog/product/cache/1/thumbnail/600x/9df78eab33525d08d6e5fb8d27136e95/5/5/559635-1.jpg" alt="Microonde da Incasso">
+                    <h3>Microonde da Incasso</h3>
+                    <p>Prezzo: €250</p>
+                    <button onclick="addToCart('Microonde da Incasso', 250)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.ariete.store/media/images/product/main/ariete-952-forno-a-microonde-combinato-con-grill-pizza-41b2691ce1b871357a0b350f4583f354.jpg" alt="Microonde Grill">
+                    <h3>Microonde Grill</h3>
+                    <p>Prezzo: €150</p>
+                    <button onclick="addToCart('Microonde Grill', 150)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/61dlDmo3JoL.jpg" alt="Microonde Multifunzionale">
+                    <h3>Microonde Multifunzionale</h3>
+                    <p>Prezzo: €200</p>
+                    <button onclick="addToCart('Microonde Multifunzionale', 200)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="caffettiere">
+            <h2>Caffettiere</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.kasanova.com/media/catalog/product/G/I/GIR000140NOC_307c6182-ea39-4e0c-bffd-8c495dcb3921.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=753&width=753&canvas=753:753" alt="Caffettiera Elettrica">
+                    <h3>Caffettiera Elettrica</h3>
+                    <p>Prezzo: €70</p>
+                    <button onclick="addToCart('Caffettiera Elettrica', 70)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/61+uUKYNeLL.jpg" alt="Caffettiera Italiana">
+                    <h3>Caffettiera Italiana</h3>
+                    <p>Prezzo: €30</p>
+                    <button onclick="addToCart('Caffettiera Italiana', 30)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/41pidwQLMFL._AC_UF1000,1000_QL80_.jpg" alt="Moka Tradizionale">
+                    <h3>affettiera automatica</h3>
+                    <p>Prezzo: €300</p>
+                    <button onclick="addToCart('Moka Tradizionale', 25)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/51ZEgm+3rNL._AC_UF894,1000_QL80_.jpg" alt="Caffettiera a Piston">
+                    <h3>Caffettiera automatica</h3>
+                    <p>Prezzo: €140</p>
+                    <button onclick="addToCart('Caffettiera a Piston', 40)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="lavatrici">
+            <h2>Lavatrici</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.savoiashop.com/public/prodotti/lavatrice-p0sp10ep.jpg" alt="Lavatrice Super">
+                    <h3>Lavatrice Super</h3>
+                    <p>Prezzo: €800</p>
+                    <button onclick="addToCart('Lavatrice Super', 800)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://m.media-amazon.com/images/I/5106qJm2DWL._AC_UF894,1000_QL80_.jpg" alt="Lavatrice Compatta">
+                    <h3>Lavatrice Compatta</h3>
+                    <p>Prezzo: €600</p>
+                    <button onclick="addToCart('Lavatrice Compatta', 600)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmThPcxRh0I-uFsM9wLSspZvoaZVQHxWKhDw&s" alt="Lavatrice a Carica Frontale">
+                    <h3>Lavatrice a Carica Frontale</h3>
+                    <p>Prezzo: €750</p>
+                    <button onclick="addToCart('Lavatrice a Carica Frontale', 750)">Aggiungi al Carrello</button>
+                </div>
+                <div class="product">
+                    <img src="https://www.euronics.it/dw/image/v2/BFPN_PRD/on/demandware.static/-/Sites-catalog_euronics_master/default/dw36f4e373/hi-res/222007217_1.jpg?sw=1000&q=90&strip=false" alt="Lavatrice a Carica Dall'alto">
+                    <h3>Lavatrice a Carica Dall'alto</h3>
+                    <p>Prezzo: €700</p>
+                    <button onclick="addToCart('Lavatrice a Carica Dall\'alto', 700)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="carrello">
+            <h2>Carrello</h2>
+            <div id="cartItems"></div>
+            <p id="totalPrice">Prezzo Totale: €0</p>
+            <button onclick="checkout()">Procedi al Checkout</button>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Elettro. Tutti i diritti riservati.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
